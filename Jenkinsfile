@@ -25,4 +25,5 @@ pipeline {
                 println "key = ${key}, value = ${props[key]}"
             }
         }
+    }
 }
