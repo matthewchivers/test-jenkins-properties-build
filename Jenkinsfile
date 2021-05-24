@@ -14,7 +14,7 @@ pipeline {
 
         stage("Get Properties") {
             // Download file propsFileName
-            fileDownloadOperation url: "https://raw.github.ibm.com/Matthew-Chivers/test-jenkins-properties-properties/master/${propsFileName}?token=AABKJZWJOIU7W5LUAXJ6FHLAWTE4U"
+            fileDownloadOperation url: "https://raw.githubusercontent.com/matthewchivers/test-jenkins-properties-properties/main/${propsFileName}"
         }
         stage("Read properies") 
         {
